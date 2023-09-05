@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.primary-color{
+    color: #FF42A5;
+}
+.prmy-text-color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+.prmy-para{
+    color: #534C64;
+    /* text-align: center; */
+    font-size: 18px;
+    font-weight: 200;
+    padding-bottom: 16px;
+    text-transform: lowercase;
+}
+
+/* header style  */
+.header-container{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    padding:40px 240px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.logo-items, .lists{
+    width: 50%;
+}
+.head-title{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.logo-items{
+    display: flex;
+}
+.lists{
+    align-items: end;
+    
+}
+.nav-list{
+    display: flex;
+    gap: 32px;
+    justify-content: end;
+
+}
+li:hover {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 18px 24px;
+  }
+li{
+    list-style: none;
+   
+}
+
+/* Goat section  */
+.goat-section{
+    display: flex;
+    /* padding:40px 240px; */
+}
+.goat-content, .goat-img{
+    width: 50%;
+}
+.goat-content{
+    padding-top: 140px;
+    padding-right: 60px;
+    background-image: url(images/Group\ 14.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-left: 240px;
+}
+.goat-h2{
+    color: #0B0223;
+    /* text-align: center; */
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.goat-h1{
+    /* text-align: center; */
+    font-size: 95px;
+    font-weight: 800;
+    padding: 24px 0px;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.red-button{
+    margin-top: 20px;
+    display: inline-flex;
+    padding: 21px 40px;
+    border: 0px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+}
+.blue-button{
+    margin-top: 20px;
+    display: inline-flex;
+    padding: 21px 40px;
+    border: 0px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    margin-left: 24px;
+}
+ .goat-img{
+   padding-right: 240px;
+}
+
+/* Funny gamer section  */
+.funny-gamer-sec{
+    margin: 120px 240px;
+    
+    text-align: center;
+}
+.funny-gamer-title{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.funny-gamer-para{
+    color: #534C64;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+/* online game section  */
+.online-game{
+    margin: 120px 240px;
+}
+.img-position{
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}

@@ -384,6 +384,9 @@ li{
     }
 
 /* Goat section  */
+.prmy-para{
+    padding-left: 40px;
+}
 .goat-section{
     margin-top: 80px;
     display: flex;
@@ -413,12 +416,14 @@ li{
     color: #0B0223;
     font-size: 20px;
     font-weight: 600;
+    padding-left: 40px;
     text-transform: uppercase;
 }
 .goat-h1{
     font-size: 50px;
     font-weight: 800;
     padding: 10px 0px;
+    padding-left: 40px;
     text-transform: uppercase;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -462,7 +467,7 @@ li{
 }
 /* funny games part  */
 .funny-gamer-sec{
-    margin: 0px 50px;
+    margin: 0px 0px;
     text-align: center;
 }
 .funny-gamer-title, .prmy-text-color{
@@ -481,7 +486,8 @@ li{
     display: grid;
     grid-template-columns: repeat(1,1fr);
     gap: 12px;
-    width: 342px;
+    margin-left: 40px;
+    /* width: 342px; */
     margin-top: 24px;
     
 }

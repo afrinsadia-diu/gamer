@@ -264,10 +264,16 @@ li{
     
 }
 .games-link-button{
+    display: flex;
     min-width: 250px;
     justify-content: start;
     gap: 15px;
     padding-left: 10px;
+}
+.games-link-button:hover{
+    border:2 solid #F948B2;
+    border-radius: 50px;
+    color: #F948B2;
 }
 .games-link div{
     margin: 20px 0px;
@@ -284,7 +290,9 @@ li{
     font-size: 18px;
     font-weight: 600;
 }
-
+.games-link div a:hover{
+    color: #F948B2;
+}
 
 /* Footer  */
 .footer{
@@ -590,6 +598,7 @@ li{
     
 }
 .games-link-button{
+    display: flex;
     min-width: 50px;
     justify-content: start;
     gap: 15px;
@@ -621,6 +630,7 @@ li{
 .games-link div a:hover{
     color: #F948B2;
 }
+
 /* footer  */
 .footer-list{
     display: grid;
